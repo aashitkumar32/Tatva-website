@@ -1,0 +1,89 @@
+       
+       #out
+        {
+            margin-top: 30px;
+            width: 100%;
+        }
+        #out button
+        {
+            background-image:
+            linear-gradient(to top right,
+               rgb(184, 87, 145), rgba(50, 48, 168, 0.74)
+            );
+            width: auto;
+            color: bisque;
+            border-radius: 30px;
+            border: solid black 2px;
+        }
+        #out button:hover
+        {
+            color: white;
+            background-color: black;
+        }
+        #btn
+        {
+            width: 70%;
+            height: 200px;
+            margin-left: 15%;
+            margin-top: 50px;
+            border: solid black 2px;
+            background-image:
+            linear-gradient(to top right,
+               rgb(184, 87, 145), rgba(50, 48, 168, 0.74)
+            );
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            color: bisque;
+            font-weight: 700;
+        }
+        #btn:hover
+        {
+            transition: 1s;
+            color: bisque;
+            background-color:black;
+        }
+        .main-section {
+            padding: 50px 30px;
+            margin: 40px 0;
+          }
+
+          
+          .panel {
+            background-color: #ffffff !important;
+            border: 1px solid black !important;
+            padding: 20px;
+          }
+          
+          .panel-heading {
+            background-image:
+            linear-gradient(to top right,
+               rgb(184, 87, 145), rgba(50, 48, 168, 0.74)
+            );
+            color: #ffffff !important;
+          }
+          
+          .panel-heading .panel-title {
+            font-size: 18px;
+          }
+        body
+        {
+            background-image:linear-gradient(To left ,rgb(184, 87, 145), rgba(50, 48, 168, 0.74));
+        }
+
+        input, button, textarea
+		{
+			font-family: 'Courier New', Courier, monospace;
+			font-size:18px;
+			margin-top: 10px;
+			width: 80%;
+			margin-left: 10%;	
+			padding:12px;
+			border:2px grey solid;
+			border-radius:4px;	
+			outline:none;
+			transition:.5s;
+		}
+		input:focus{
+			transition:.5s;
+			border:2px black solid;
+        }
